@@ -1,0 +1,487 @@
+body {
+  font-family: "Raleway", sans-serif;
+  margin: 0;
+  background: #262626;
+  color: #CCCCCC;
+  font-size: 14px;
+}
+
+main {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  max-width: 1020px;
+  margin: auto;
+}
+
+p, h2, h1, h3 {
+  margin: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:visited {
+  color: inherit;
+}
+
+.page {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.page .home {
+  margin: -20px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+.page .home .landing-container {
+  background-image: radial-gradient(circle, #404040, #262626 70%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
+  width: 100%;
+}
+.page .home .landing-container .home-details {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.page .home .landing-container .app-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.page .home .landing-container .app-icon img {
+  width: 40px;
+}
+.page .home .landing-container .heading h1 {
+  font-weight: 900;
+  font-size: 36px;
+  letter-spacing: 5px;
+  text-align: center;
+}
+.page .home .landing-container .description {
+  font-size: 16px;
+  text-align: center;
+  line-height: 27px;
+}
+.page .home .landing-container .buttons {
+  display: flex;
+  gap: 10px;
+}
+.page .home .landing-container .buttons a .button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 120px;
+  background: #404040;
+  border-radius: 10px;
+  font-weight: bold;
+}
+.page .home .image {
+  display: flex;
+  justify-content: center;
+}
+.page .home .image img {
+  width: 250px;
+}
+.page .home .sect {
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+.page .home .sect .title {
+  text-align: center;
+}
+.page .home .sect .title h2 {
+  font-size: 32px;
+  font-weight: 700;
+}
+.page .home .sect .feat-content {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  max-width: 800px;
+  justify-content: center;
+}
+.page .home .sect .feat-content .feature {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+  max-width: 800px;
+}
+.page .home .sect .feat-content .feature .right {
+  text-align: right;
+}
+.page .home .sect .feat-content .feature .left {
+  text-align: left;
+}
+.page .home .sect .feat-content .feature .text {
+  max-width: 130px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.page .home .sect .feat-content .feature .text .feature-title h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+.page .home .sect .feat-content .feature .text .feature-content p {
+  font-size: 14px;
+}
+.page .home .sect .feat-content .feature .feature-image img {
+  max-width: 130px;
+}
+.page .home .sect .content {
+  padding: 20px;
+  display: flex;
+  gap: 40px;
+  flex-direction: column;
+}
+.page .home .sect .content hr {
+  width: 200px;
+  border: 0px;
+  border-top: 2px dashed #404040;
+}
+.page .home .sect .content .part {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.page .home .sect .content .part p {
+  text-align: center;
+  font-size: 16px;
+}
+.page .home .sect .content .part .create {
+  justify-content: center;
+}
+.page .home .sect .content .part .google, .page .home .sect .content .part .create {
+  border-radius: 20px;
+  height: 70px;
+  border: 2px solid #404040;
+  background: #262626;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  font-size: 16px;
+  align-items: center;
+  min-width: 250px;
+}
+.page .home .sect .content .part .google .icon, .page .home .sect .content .part .create .icon {
+  display: flex;
+  background: #404040;
+  width: 70px;
+  height: 70px;
+  border-top-left-radius: 18px;
+  border-bottom-left-radius: 18px;
+}
+.page .home .sect .content .part .google .icon i, .page .home .sect .content .part .create .icon i {
+  margin: auto;
+  font-size: 26px;
+}
+.page .error {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+.page .error .icon {
+  color: #404040;
+  font-size: 200px;
+}
+.page .error .details {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+.page .error .details .title {
+  color: #808080;
+  font-size: 16px;
+  font-weight: bold;
+}
+.page .error .details .info {
+  color: #808080;
+  font-size: 12px;
+  text-align: center;
+}
+.page .full-object {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  background: #404040;
+  height: 120px;
+  cursor: pointer;
+}
+.page .full-object i {
+  font-size: 25px;
+}
+.page .full-object p {
+  font-size: 16px;
+  font-weight: bold;
+}
+.page header {
+  position: fixed;
+  border-bottom: 1px solid grey;
+  top: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 100%;
+  display: flex;
+  background: #404040;
+}
+.page header .back {
+  font-size: 20px;
+  width: 100%;
+  padding-left: 20px;
+  cursor: pointer;
+}
+.page header .menus {
+  display: flex;
+  gap: 40px;
+  font-size: 15px;
+  align-items: center;
+  justify-content: flex-end;
+  cursor: pointer;
+  color: #808080;
+  padding-right: 20px;
+}
+.page header .menus .selected {
+  color: white;
+  font-size: 20px;
+}
+.page .title-bar {
+  display: flex;
+  align-items: center;
+}
+.page .title-bar .heading {
+  width: 100%;
+}
+.page .title-bar .heading h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #808080;
+  margin: 0;
+}
+.page .title-bar .buttons {
+  display: flex;
+  gap: 10px;
+}
+.page .title-bar .buttons button {
+  background: #404040;
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.page .title-bar .buttons .add {
+  color: #8280FF;
+}
+.page .title-bar .buttons .edit {
+  color: #FFE380;
+}
+.page .title-bar .buttons .logout {
+  color: #80FFF7;
+}
+.page .title-bar .buttons .delete {
+  color: #FF80E3;
+}
+.page .title-bar .buttons .reset {
+  color: #FFAD80;
+}
+.page .title-bar .buttons .check {
+  display: none;
+  color: #DEFF80;
+}
+.page .title-bar .buttons .done {
+  color: #80FFAB;
+}
+.page .title-bar .buttons .cancel {
+  display: none;
+  color: #FF8080;
+}
+.page form {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.page form .fields {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  max-width: 500px;
+}
+.page form .fields .field {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.page form .fields .field label {
+  font-size: 12px;
+  font-weight: bold;
+  color: #808080;
+}
+.page form .fields .field input, .page form .fields .field select {
+  background: none;
+  border: none;
+  border-bottom: 1px solid #404040;
+  padding-bottom: 10px;
+  font-size: 20px;
+  outline: none;
+  color: #CCCCCC;
+}
+.page .overview {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.page .overview .title, .page .overview .amount {
+  font-size: 20px;
+  font-weight: 500;
+}
+.page .overview .content {
+  font-size: 14px;
+}
+.page .overview .amount {
+  font-family: "Roboto Mono", monospace;
+}
+.page .overview .image {
+  max-width: 360px;
+  max-height: 300px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+.page .overview .image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.page .small-objects {
+  display: flex;
+  gap: 10px;
+}
+.page .small-objects .small-object {
+  height: 120px;
+  width: 100%;
+  background: #404040;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.page .small-objects .small-object .icon i {
+  font-size: 25px;
+}
+.page .small-objects .small-object .text p {
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+}
+.page section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.page section .objects {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.page section .objects .object {
+  padding: 10px;
+  background: #404040;
+  display: flex;
+  gap: 10px;
+  border-radius: 15px;
+  max-width: 500px;
+  cursor: pointer;
+}
+.page section .objects .object .thumb {
+  min-width: 100px;
+  max-width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #CCB88F;
+  font-size: 30px;
+  border-radius: 10px;
+  overflow: hidden;
+  color: #807558;
+}
+.page section .objects .object .thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.page section .objects .object .details {
+  overflow: hidden;
+  display: flex;
+  gap: 5px;
+  padding-top: 5px;
+  flex-direction: column;
+}
+.page section .objects .object .details p {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  overflow: scroll;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  -o-text-overflow: ellipsis;
+}
+.page section .objects .object .details p::-webkit-scrollbar {
+  display: none;
+}
+.page section .objects .object .details .title, .page section .objects .object .details .amount {
+  font-size: 16px;
+  font-weight: 500;
+}
+.page section .objects .object .details .description, .page section .objects .object .details .quantity {
+  font-size: 12px;
+}
+.page section .objects .object .details .amount {
+  font-family: "Roboto Mono", monospace;
+  font-weight: normal;
+}
+.page footer {
+  position: fixed;
+  border-top: 1px solid grey;
+  bottom: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 100%;
+  background: #404040;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.page footer h1 {
+  font-weight: 700;
+  letter-spacing: 12px;
+  font-size: 14px;
+}
+
+/*# sourceMappingURL=style.css.map */

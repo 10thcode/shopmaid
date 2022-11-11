@@ -1,0 +1,49 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shopmaid - Your shopping assistant</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="{% static 'shopmaid/favicon/apple-touch-icon.png' %}">
+  <link rel="icon" type="image/png" sizes="32x32" href="{% static 'shopmaid/favicon/favicon-32x32.png' %}">
+  <link rel="icon" type="image/png" sizes="16x16" href="{% static 'shopmaid/favicon/favicon-16x16.png' %}">
+  <link rel="manifest" href="{% static 'shopmaid/site.webmanifest' %}">
+  <link rel="stylesheet" href="{% static 'shopmaid/css/style.css' %}">
+  <link rel="stylesheet" href="{% static 'shopmaid/fontawesome/css/all.min.css' %}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Mono&display=swap" rel="stylesheet">
+  <script type="importmap">
+    {
+      "imports": {
+        "vue": "https://cdn.jsdelivr.net/npm/vue@3/dist/vue.esm-browser.js",
+        "@vue/devtools-api": "https://cdn.jsdelivr.net/npm/@vue/devtools-api@6.4.5/lib/esm/index.js"
+      }
+    }
+  </script>
+</head>
+<body>
+  <div id="app">
+    <div class="page">
+      <!-- HEADER -->
+      <header>
+        <page-header></page-header>
+      </header>
+
+      <!-- MAIN -->
+      <main>
+        <router-view></router-view>
+      </main>
+
+      <!-- FOOTER -->
+      <footer>
+        <page-footer></page-footer>
+      </footer>
+    </div>
+  </div>
+  <script src="{% static 'shopmaid/js/main.js' %}" type="module"></script>
+</body>
+</html>
