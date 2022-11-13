@@ -35,7 +35,7 @@ export default {
 
       <div class="field">
         <label>Price: </label>
-        <input type="number" ref="price" v-model="item.price" placeholder="e.g. 12.34" min="0">
+        <input type="number" ref="price" v-model="item.price" placeholder="e.g. 12.34" min="0" step="any">
       </div>
 
       <div class="field">
