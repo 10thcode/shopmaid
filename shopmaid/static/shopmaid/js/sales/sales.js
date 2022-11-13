@@ -16,7 +16,7 @@ export default{
         <p>\${date + " " + month + ',' + " " + year}</p>
       </div>
       <div class="amount">
-        <p><i class="fa-solid fa-money-bill-wave"></i> \${amount.toFixed(2)}</p>
+        <p>\${amount.toFixed(2)}</p>
       </div>
     </div>
 
@@ -54,7 +54,7 @@ export default{
               <p>\${buyer.additional_info || 'No addintional info'}</p>
             </div>
             <div class="amount">
-              <p><i class="fa-solid fa-money-bill-wave"></i> \${(buyer.amount + 0).toFixed(2)}</p>
+              <p>\${(buyer.amount + 0).toFixed(2)}</p>
             </div>
           </div>
         </div>

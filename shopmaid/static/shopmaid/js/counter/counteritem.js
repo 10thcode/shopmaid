@@ -30,7 +30,7 @@ export default {
         <p>Unit Price: \${(item.price + 0).toFixed(2)}</p>
       </div>
       <div class="amount">
-        <p><i class="fa-solid fa-money-bill-wave"></i> \${item.quantity === 0 ? (item.price + 0).toFixed(2) : (item.quantity * item.price).toFixed(2)}</p>
+        <p>\${item.quantity === 0 ? (item.price + 0).toFixed(2) : (item.quantity * item.price).toFixed(2)}</p>
       </div>
     </div>
 

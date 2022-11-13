@@ -38,7 +38,7 @@ export default{
     <!--Counter DETAILS-->
     <div class="overview">
       <div class="amount">
-        <p><i class="fa-solid fa-money-bill-wave"></i> \${getTotal.toFixed(2)}</p>
+        <p>\${getTotal.toFixed(2)}</p>
       </div>
     </div>
 
@@ -73,7 +73,7 @@ export default{
               <p>\${item.description || 'No description'}</p>
             </div>
             <div class="amount" v-if="item.price !== 0">
-              <p><i class="fa-solid fa-money-bill-wave"></i> \${item.quantity === 0 ? (item.price + 0).toFixed(2) : (item.quantity * item.price).toFixed(2)}</p>
+              <p>\${item.quantity === 0 ? (item.price + 0).toFixed(2) : (item.quantity * item.price).toFixed(2)}</p>
             </div>
             <div class="quantity" v-if="item.quantity !== 0">
               <p>Quantity: \${item.quantity} <span v-if="item.price">| Unit Price: \${item.price.toFixed(2)}</span></p>

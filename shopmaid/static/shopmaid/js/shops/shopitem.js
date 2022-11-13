@@ -21,7 +21,7 @@ export default {
         <p>\${item.description || 'No description'}</p>
       </div>
       <div class="amount">
-        <p><i class="fa-solid fa-money-bill-wave"></i> \${(item.price + 0).toFixed(2)}</p>
+        <p>\${(item.price + 0).toFixed(2)}</p>
       </div>
     </div>
 

@@ -38,7 +38,7 @@ export default{
 
     <div class="overview">
       <div class="amount">
-        <p><i class="fa-solid fa-money-bill-wave"></i> \${getTotal.toFixed(2)}</p>
+        <p>\${getTotal.toFixed(2)}</p>
       </div>
     </div>
 
@@ -75,7 +75,7 @@ export default{
               <p>\${year}</p>
             </div>
             <div class="amount">
-              <p><i class="fa-solid fa-money-bill-wave"></i> \${getDateTotal(date).toFixed(2)}</p>
+              <p>\${getDateTotal(date).toFixed(2)}</p>
             </div>
           </div>
         </div>
